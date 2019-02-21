@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>学生列表页面</title>
+    <script th:src="@{/js/jquery-3.3.1.js}" type="text/javascript"></script>
+    <script th:src="@{/js/vue.min.js}" type="text/javascript"></script>
+</head>
+<body>
+
+</body>
+<script>
+    $(function(){
+        $.post("/studentList",{},function (data) {
+            alert(data);
+        });
+    });
+</script>
+
+</html>
