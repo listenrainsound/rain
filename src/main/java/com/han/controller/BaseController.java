@@ -12,8 +12,7 @@ public class BaseController {
 
     @Autowired
     StudentService studentService;
-
-    /*跳转到主页*/
+    /*跳转到主页  ？？？？？？？？？？？？？？？？？？？？？？*/
     @RequestMapping("/")
     public String toIndex(){
         System.out.println("***********************************");
