@@ -21,6 +21,5 @@ public class TestUtil {
 
         System.out.println(strDate2);
         //test 1
-        // test 2
     }
 }
